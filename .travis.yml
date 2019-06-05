@@ -5,7 +5,7 @@ jobs:
       name: "Unit Tests"
     - script: echo "'date' Integration-tests" && sleep 6
       name: "Intergration Tests"
-    - stage: deplay
+    - stage: deploy
       name: "Deploy to GCP"
       script: echo "'date' Deploy to GCP"
     
